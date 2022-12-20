@@ -1,0 +1,20 @@
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    /*float: left;*/
+    /*margin-left: -4px; extra margó megszüntetése*/
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: rgb(207, 148, 127);
+    padding: 10px;
+    margin-left: -4px;
+    font-family: Arial, sans-serif;
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+    color: rgb(29, 25, 27);
+}
